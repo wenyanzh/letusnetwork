@@ -1,0 +1,88 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.home h1 {
+  font-family: 'Abril Fatface';
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.home h2 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.home h5 {
+  color: #FFF;
+}
+
+.home {
+  background-image: url("https://ak7.picdn.net/shutterstock/videos/1034981867/thumb/1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Share Tech', sans-serif;
+}
+
+.home .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+    
+.buttons {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.top-button {
+  border: rgba(70,130,180) solid 2px;
+  background-color: rgba(70,130,180);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 40px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.top-button:hover {
+  background-color: transparent;
+  text-decoration: none;
+  color: #fff;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutus h2 {
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  font-family: 'Share Tech', sans-serif;
+  color: white;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.aboutus p {
+  position: relative;
+  text-align: center;
+  font-family: 'Share Tech', sans-serif;
+  color: white;
+  font-size: 30px;
+  margin: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+}
